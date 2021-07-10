@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,600&display=swap');
+
+
+.custom-bg-image {
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707) , url('../img/home.png');
+   
+   background-position: center; 
+   width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-font-size-button {
+
+    font-size: 1.5rem;
+}
+
+.custom-margin-right {
+    margin-right: 25px;
+}
+
+.logo {
+    background-color: white;
+    width:8vw;
+    height: 8vw;
+    border-radius:8vw;
+    
+}
+
+.logo h1 {
+    color: red;
+    align-items: center;
+    font-size: 5vw;
+}
+
+.custom-bg-img-set {
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 110% 103%;
+    width: 14rem;
+    height: 10rem;
+    border-radius: 1rem;
+    background-position: center;
+   
+}
+
+.custom-box {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-top: 2rem;
+}
+
+@media screen and (min-width :780px ) {
+     .custom-input-margin {
+        margin-left: 2rem;
+    } 
+    
+}
+
+@media screen and (max-width :780px) {
+    .logo {
+        background-color: white;
+        width:14vw;
+        height: 14vw;
+        border-radius:8vw;
+    }
+    .logo h1 {
+        color: red;
+        align-items: center;
+        font-size: 8vw;
+    }
+    .custom-content {
+        font-size: 1.5rem;
+    }
+    .sub-heading {
+        font-size: 2rem;
+    }
+    .sub-heading-media {
+        font-size: 1.6rem;
+    }
+    .custom-content-media {
+        font-size: 1.2rem;
+    }
+
+    .custom-bg-img-set {
+        background-size: 81% 81%;
+    width: 14rem;
+    height: 10rem;
+    border-radius: 30rem;
+    }
+
+    .custom-top-heading-media {
+        font-size: 1.8rem;
+    }
+    .custom-font-size-button {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+.custom-font-family {
+    font-family: 'Poppins', sans-serif;
+}
+
+p , h4 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.sub-heading {
+    color: #192f60;
+    font-weight: 900;
+}
+.custom-content {
+    color: #8c96ab;
+    font-weight: 600;
+}
+.custom-text-color {
+    color: #636f88;
+    font-weight: 600;
+}
